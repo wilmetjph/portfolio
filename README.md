@@ -10,4 +10,4 @@ A responsive restaurant website.
 
 ## Live Demo
 
-[View My Little Lemon](https://wilmetjph.github.io/Web-Development/)
+[View My Little Lemon](https://wilmetjph.github.io/portfolio/)
