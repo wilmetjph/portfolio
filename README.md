@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A responsive personal portfolio presenting my background, technical skills and selected projects.
+A simple personal portfolio website built with HTML, CSS and JavaScript.
 
 ## Technologies
 
