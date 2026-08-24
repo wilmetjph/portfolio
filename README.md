@@ -1,6 +1,6 @@
-# My Little Lemon
+# Personal Portfolio
 
-A responsive restaurant website.
+A responsive personal portfolio presenting my background, technical skills and selected projects.
 
 ## Technologies
 
@@ -8,6 +8,6 @@ A responsive restaurant website.
 * CSS
 * JavaScript
 
-## Live Demo
+## Live Website
 
-[View My Little Lemon](https://wilmetjph.github.io/Web-Development/HTML:CSS/MyLittleLemon/)
+[View Portfolio](https://wilmetjph.github.io/portfolio/)
