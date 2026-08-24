@@ -1,6 +1,6 @@
 # My Little Lemon
 
-A responsive restaurant website developed as part of the Meta Front-End Developer coursework.
+A responsive restaurant website.
 
 ## Technologies
 
