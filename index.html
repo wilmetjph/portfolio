@@ -2,8 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Jean Wilmet | Wealth Management & Development</title>
+		<title>Jean Wilmet | Wealth Insights & Applications</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta
+			name="description"
+			content="A personal wealth management platform combining market perspectives, portfolio analysis and digital tools."
+		>
   		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	
@@ -12,13 +16,14 @@
 				<img
 					id="image"
 					src="img/wilmet-wealth-management-development-logo.png"
-					alt="Jean Wilmet Wealth Management and Development"
+					alt="Jean Wilmet Finance and Development"
 				>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#about">About Me</a></li>
-						<li><a href="#projects">Projects</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#insights">Insights</a></li>
+						<li><a href="#applications">Applications</a></li>
+						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -27,11 +32,120 @@
 			<main class="main">
 				<section class="banner" id="home">
 					<div class="banner-content">
-						<h1>Building Digital Tools for Wealth Management</h1>
+						<h1>Wealth Insights. Better Decisions.</h1>
 						<p>
-    						Drawing on six years of experience in wealth management, I design and develop practical applications for portfolio analysis, monitoring and investment decision support.
+    						Explore market insights, portfolio analysis and digital tools designed to support informed wealth management decisions.
     					</p>
+    					<a href="#applications" class="banner-button">Explore Applications</a>
 					</div>
+				</section>
+
+				<section class="market-pulse">
+					<h2>Market Pulse</h2>
+
+					<div class="tradingview-widget-container">
+						<div class="tradingview-widget-container__widget"></div>
+
+						<script
+							type="text/javascript"
+							src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+							async
+						>
+						{
+							"symbols": [
+								{
+									"proName": "FOREXCOM:SPXUSD",
+									"title": "S&P 500"
+								},
+								{
+									"proName": "CAPITALCOM:EU50",
+									"title": "Euro Stoxx 50"
+								},
+								{
+									"proName": "FX_IDC:EURUSD",
+									"title": "EUR/USD"
+								},
+								{
+									"proName": "TVC:GOLD",
+									"title": "Gold"
+								}
+							],
+							"showSymbolLogo": false,
+							"isTransparent": true,
+							"displayMode": "adaptive",
+							"colorTheme": "dark",
+							"locale": "en"
+						</script>
+						}
+					</div>
+				</section>
+
+				<section class="market-insights" id="insights">
+					<h2>Market Insights</h2>
+
+					<p class="insights-intro">
+						Follow the latest developments shaping global markets and investment perspectives.
+					</p>
+
+					<div class="insights-widget">
+						<div class="tradingview-widget-container">
+							<div class="tradingview-widget-container__widget"></div>
+
+							<script
+								type="text/javascript"
+								src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
+								async
+							>
+							{
+								"feedMode": "all_symbols",
+								"isTransparent": true,
+								"displayMode": "regular",
+								"width": "100%",
+								"height": "100%",
+								"colorTheme": "light",
+								"locale": "en"
+							}
+							</script>
+						</div>
+					</div>
+				</section>
+
+				<h2 class="projects-title" id="applications">Wealth Management Applications</h2>
+				<p class="projects-intro"> Explore practical applications designed to analyze portfolios, monitor investments and support financial decisions.
+				</p>
+
+				<section class="articles">
+					<article class="card">
+						<h2>Portfolio Decision Support</h2>
+						<img 
+							src="img/portfolio-decision-support.png" 
+							alt="Portfolio Decision Support application interface"
+						>
+						<p>Simulate portfolio transactions and evaluate their impact before execution.</p>
+						<p class="technologies">
+							Python · Pandas · Streamlit
+						</p>
+						<a 
+							href="https://portfolio-decision-support.streamlit.app"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="card-button"
+						>Launch application</a>
+					</article>
+					<article class="card">
+						<h2>Portfolio Performance Analyzer</h2>
+						<img src="img/performance-analyzer.png" alt="Portfolio Performance Analyzer application interface">
+						<p>Measure portfolio performance and compare the results with a selected benchmark.</p>
+						<p class="technologies">
+							Python · Pandas · Streamlit
+						</p>
+						<a 
+						href="https://wilmet-portfolio-analyzer.streamlit.app"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="card-button"
+						>Launch application</a>
+					</article>
 				</section>
 
 				<section class="about" id="about">
@@ -44,43 +158,12 @@
 					<div class="about-text">
 						<h2>About Me</h2>
 						<p>I am a wealth management professional with six years of experience and a strong interest in programming. I enjoy transforming business needs into practical, understandable and user-friendly digital tools.</p>
-                		<p>My projects combine financial knowledge, problem-solving and software development.</p>
                 	</div>
                 </section>
 
-				<h2 class="projects-title" id="projects">My Projects</h2>
-				<p class="projects-intro"> A selection of applications combining financial expertise, programming and practical decision support.
-				</p>
-
-				<section class="articles">
-					<article class="card">
-						<h2>Portfolio Decision Support</h2>
-						<img 
-							src="img/portfolio-decision-support.png" 
-							alt="Portfolio Decision Support application interface"
-						>
-						<p>A portfolio management application designed to simulate transactions, monitor asset allocation and evaluate their impact before execution.</p>
-						<a 
-							href="https://portfolio-decision-support.streamlit.app"
-							target="_blank"
-							rel="noopener noreferrer"
-						>Launch application</a>
-					</article>
-					<article class="card">
-						<h2>Portfolio Performance Analyzer</h2>
-						<img src="img/performance-analyzer.png" alt="Portfolio Performance Analyzer application interface">
-						<p>An interactive application for measuring portfolio performance, comparing results with a benchmark and visualising cumulative returns, volatility and asset allocation.</p>
-						<a 
-						href="https://wilmet-portfolio-analyzer.streamlit.app"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Launch application</a>
-					</article>
-				</section>
-
 				<section class="contact" id="contact">
 					<h2>Let's connect</h2>
-					<p>Interested in my projects or professional background? Feel free to contact me or explore more of my work online.</p>
+					<p>Interested in using, improving or developing wealth management applications? Let’s connect and explore new possibilities.</p>
 
 					<div class="contact-links">
 						<a href="mailto:wilmetjean@outlook.com" class="contact-link">Email</a>
