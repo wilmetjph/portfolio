@@ -60,7 +60,7 @@ nav a:hover {
 /* ------- MAIN */
 
 .banner {
-    background: url(../img/dashboard.png) center/cover no-repeat;
+    background: url(../img/dashboard.jpg) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
