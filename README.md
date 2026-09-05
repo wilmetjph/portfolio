@@ -1,7 +1,16 @@
 # Personal Portfolio
 
-A simple personal portfolio website built with HTML, CSS and JavaScript.
+A personal landing page showcasing projects at the intersection of wealth management and software development.
 
-## Live Website
+## Featured applications
 
-[View Portfolio](https://wilmetjph.github.io/portfolio/)
+- [Portfolio Decision Support](https://portfolio-decision-support.streamlit.app)
+- [Portfolio Performance Analyzer](https://wilmet-portfolio-analyzer.streamlit.app)
+
+## Live website
+
+[View the portfolio](https://wilmetjph.github.io/portfolio/)
+
+## Technologies
+
+HTML and CSS.
