@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A personal landing page showcasing projects at the intersection of wealth management and software development.
+A personal wealth management platform combining market insights, portfolio analysis and interactive digital tools.
 
 ## Featured applications
 
