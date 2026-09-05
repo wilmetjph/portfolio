@@ -64,6 +64,7 @@ nav a:hover {
 /* ------- MAIN */
 
 .banner {
+    min-height: 320px;
     background: url(../img/dashboard.jpg) center/cover no-repeat;
     display: flex;
     align-items: center;
@@ -382,6 +383,9 @@ nav a:hover {
 @media (max-width: 600px) {
     nav ul {
         gap: 15px;
+    }
+    .banner {
+        min-height: 360px;
     }
     .about {
         flex-direction: column;
