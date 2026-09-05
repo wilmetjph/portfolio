@@ -1,79 +1,100 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jean Wilmet | Wealth Management & Development</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	
+	<body>
+			<header class="header">
+				<img
+					id="image"
+					src="img/wilmet-wealth-management-development-logo.png"
+					alt="Jean Wilmet Wealth Management and Development"
+				>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		
+			<main class="main">
+				<section class="banner" id="home">
+					<div class="banner-content">
+						<h1>Building Digital Tools for Wealth Management</h1>
+						<p>
+    						Drawing on six years of experience in wealth management, I design and develop practical applications for portfolio analysis, monitoring and investment decision support.
+    					</p>
+					</div>
+				</section>
 
-<html lang="en">
+				<section class="about" id="about">
+					<img 
+						src="img/jean-wilmet.jpeg"
+						alt="Jean Wilmet"
+						class="about-photo"
+					>
 
-<head>
-	<title>Jean Wilmet | Portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+					<div class="about-text">
+						<h2>About Me</h2>
+						<p>I am a wealth management professional with six years of experience and a strong interest in programming. I enjoy transforming business needs into practical, understandable and user-friendly digital tools.</p>
+                		<p>My projects combine financial knowledge, problem-solving and software development.</p>
+                	</div>
+                </section>
 
-<body>
-	<header>
-		<h1>Jean Wilmet</h1>
-		<p>Business & Technology</p>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-			</ul>
-		</nav>
-	</header>
+				<h2 class="projects-title" id="projects">My Projects</h2>
+				<p class="projects-intro"> A selection of applications combining financial expertise, programming and practical decision support.
+				</p>
 
-	<main>
-		<section id="about">
-			<h2>About me</h2>
-			<p>Business-oriented professional with over five years of experience in Wealth Management at Rothschild & Co.</p> 
-				
-			<p>I hold a Master’s degree in Business Administration from ICHEC Brussels Management School, 
-				specialized in Finance, and have passed the CFA Level II Exam. 
-				My experience includes portfolio management, asset allocation, 
-				investment analysis and client advisory, as well as project coordination 
-				and process optimization.</p>
+				<section class="articles">
+					<article class="card">
+						<h2>Portfolio Decision Support</h2>
+						<img 
+							src="img/portfolio-decision-support.png" 
+							alt="Portfolio Decision Support application interface"
+						>
+						<p>A portfolio management application designed to simulate transactions, monitor asset allocation and evaluate their impact before execution.</p>
+						<a 
+							href="https://portfolio-decision-support.streamlit.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>Launch application</a>
+					</article>
+					<article class="card">
+						<h2>Portfolio Performance Analyzer</h2>
+						<img src="img/performance-analyzer.png" alt="Portfolio Performance Analyzer application interface">
+						<p>An interactive application for measuring portfolio performance, comparing results with a benchmark and visualising cumulative returns, volatility and asset allocation.</p>
+						<a 
+						href="https://wilmet-portfolio-analyzer.streamlit.app"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Launch application</a>
+					</article>
+				</section>
 
-			<p>Alongside my financial background, I have developed programming skills through certifications in C++ and Java from EPFL and C programming from IMT, as well as practical experience with VBA and Python.
-			</p>
-			
-		</section>
-		<section id="skills">
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>PHP</li>
-				<li>Python</li>
-			</ul>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<div class="project">
-				<h3>Restaurant Website</h3>
-				<p>A responsive restaurant website built with HTML, CSS and JavaScript.</p>
-				<img src="Site.png" alt="Restaurant website in progress">
-				<div class="languages">
-					<p>HTML</p>
-					<p>CSS</p>
-					<p>JavaScript</p>
-				</div>
-				<a href="https://wilmetjph.github.io/web-projects/my-little-lemon/" target="_blank">View project</a>
-			</div>
-		</section>
-		<section id="contact">
-			<h2>Contact</h2>
-			<p>Interested in working together? Feel free to get in touch.</p>
-			<a href="mailto:wilmetjean@outlook.com">Email me</a>
-		</section>
-	</main>
+				<section class="contact" id="contact">
+					<h2>Let's connect</h2>
+					<p>Interested in my projects or professional background? Feel free to contact me or explore more of my work online.</p>
 
-	<a id="backToTop">Back to top</a>
+					<div class="contact-links">
+						<a href="mailto:wilmetjean@outlook.com" class="contact-link">Email</a>
+						<a href="https://github.com/wilmetjph" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+						<a href="https://www.linkedin.com/in/jean-wilmet-8b6960407/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+					</div>
+				</section>
 
-	<footer>
-		<p>© 2026 Jean Wilmet</p>
-	</footer>
-	<script src="script.js"></script>
-</body>
+			</main>
 
+			<footer class="footer">	
+			    <p>© Jean Wilmet </p>
+			</footer>
+
+	</body>
+	
 </html>
