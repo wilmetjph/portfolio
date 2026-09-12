@@ -19,7 +19,18 @@
 					alt="Jean Wilmet Finance and Development"
 				>
 				<nav>
-					<ul>
+					<button
+						class="menu-toggle"
+						type="button"
+						aria-label="Open navigation menu"
+						aria-expanded="false"
+						aria-controls="navigation-menu"
+					>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<ul id="navigation-menu">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#insights">Insights</a></li>
 						<li><a href="#applications">Applications</a></li>
@@ -110,8 +121,8 @@
 					</div>
 				</section>
 
-				<h2 class="projects-title" id="applications">Wealth Management Applications</h2>
-				<p class="projects-intro"> Explore practical applications designed to analyze portfolios, monitor investments and support financial decisions.
+				<h2 class="projects-title" id="applications">Investment Decision Tools</h2>
+				<p class="projects-intro"> Explore applications designed to analyze portfolios, evaluate investment decisions and support portfolio monitoring.
 				</p>
 
 				<section class="articles">
@@ -121,7 +132,7 @@
 							src="img/portfolio-decision-support.png" 
 							alt="Portfolio Decision Support application interface"
 						>
-						<p>Simulate portfolio transactions and evaluate their impact before execution.</p>
+						<p>Analyze portfolio allocation, identify rebalancing needs and simulate transactions before execution.</p>
 						<p class="technologies">
 							Python · Pandas · Streamlit
 						</p>
@@ -156,8 +167,9 @@
 					>
 
 					<div class="about-text">
-						<h2>About Me</h2>
-						<p>I am a wealth management professional with six years of experience and a strong interest in programming. I enjoy transforming business needs into practical, understandable and user-friendly digital tools.</p>
+						<h2>About the project</h2>
+						<p><strong>Built at the intersection of wealth management and technology.</strong></p>
+						<p>This personal project explores how market data, portfolio analytics and modern technologies can support the investment decision-making process.</p>
                 	</div>
                 </section>
 
@@ -178,6 +190,17 @@
 			    <p>© Jean Wilmet </p>
 			</footer>
 
+			<script>
+				const menuButton = document.querySelector(".menu-toggle");
+				const navigationMenu = document.querySelector("#navigation-menu");
+
+				menuButton.addEventListener("click", function() {
+					navigationMenu.classList.toggle("menu-open");
+
+					const menuIsOpen = navigationMenu.classList.contains("menu-open");
+					menuButton.setAttribute("aria-expanded", menuIsOpen);
+				});
+			</script>
 	</body>
 	
 </html>
