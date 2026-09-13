@@ -32,7 +32,7 @@
 					</button>
 					<ul id="navigation-menu">
 						<li><a href="#home">Home</a></li>
-						<li><a href="#insights">Insights</a></li>
+						<li><a href="#markets">Markets</a></li>
 						<li><a href="#applications">Applications</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -43,84 +43,73 @@
 			<main class="main">
 				<section class="banner" id="home">
 					<div class="banner-content">
-						<h1>Wealth Insights. Better Decisions.</h1>
+						<h1>Deeper Wealth Insights. Smarter decisions.</h1>
 						<p>
-    						Explore market insights, portfolio analysis and digital tools designed to support informed wealth management decisions.
+    						Explore global markets, analyze portfolio data and make better-informed investment decisions through purpose-built financial applications.
     					</p>
     					<a href="#applications" class="banner-button">Explore Applications</a>
 					</div>
 				</section>
 
-				<section class="market-pulse">
-					<h2>Market Pulse</h2>
+				<section class="global-markets" id="markets">
 
-					<div class="tradingview-widget-container">
-						<div class="tradingview-widget-container__widget"></div>
+    				<h2>Global Markets</h2>
 
-						<script
-							type="text/javascript"
-							src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
-							async
-						>
-						{
-							"symbols": [
-								{
-									"proName": "FOREXCOM:SPXUSD",
-									"title": "S&P 500"
-								},
-								{
-									"proName": "CAPITALCOM:EU50",
-									"title": "Euro Stoxx 50"
-								},
-								{
-									"proName": "FX_IDC:EURUSD",
-									"title": "EUR/USD"
-								},
-								{
-									"proName": "TVC:GOLD",
-									"title": "Gold"
-								}
-							],
-							"showSymbolLogo": false,
-							"isTransparent": true,
-							"displayMode": "adaptive",
-							"colorTheme": "dark",
-							"locale": "en"
-						</script>
-						}
-					</div>
+    					<p class="global-markets-intro">
+        					A snapshot of global markets and key market movements (daily performance).
+    					</p>
+
+    					<div class="market-pulse">
+        					<h3>Market Pulse</h3>
+
+        					<div class="tradingview-widget-container">
+            					<div class="tradingview-widget-container__widget"></div>
+
+						            <script
+						                type="text/javascript"
+						                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+						                async
+						            >
+						            {
+						                "symbols": [
+						                    {
+						                        "proName": "FOREXCOM:SPXUSD",
+						                        "title": "S&P 500"
+						                    },
+						                    {
+						                        "proName": "CAPITALCOM:EU50",
+						                        "title": "Euro Stoxx 50"
+						                    },
+						                    {
+						                        "proName": "FX_IDC:EURUSD",
+						                        "title": "EUR/USD"
+						                    },
+						                    {
+						                        "proName": "TVC:GOLD",
+						                        "title": "Gold"
+						                    }
+						                ],
+						                "showSymbolLogo": false,
+						                "isTransparent": true,
+						                "displayMode": "adaptive",
+						                "colorTheme": "dark",
+						                "locale": "en"
+						            }
+            						</script>
+        					</div>
+    					</div>
+
+							<div class="world-market-performance">
+							    <h3>World Market Performance</h3>
+
+							    <div class="world-market-widget">
+							        <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-world-market-summary.js"></script>
+									<tv-world-market-summary></tv-world-market-summary>
+							    </div>
+							</div>
+
 				</section>
-
-				<section class="market-insights" id="insights">
-					<h2>Market Insights</h2>
-
-					<p class="insights-intro">
-						Follow the latest developments shaping global markets and investment perspectives.
-					</p>
-
-					<div class="insights-widget">
-						<div class="tradingview-widget-container">
-							<div class="tradingview-widget-container__widget"></div>
-
-							<script
-								type="text/javascript"
-								src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
-								async
-							>
-							{
-								"feedMode": "all_symbols",
-								"isTransparent": true,
-								"displayMode": "regular",
-								"width": "100%",
-								"height": "100%",
-								"colorTheme": "light",
-								"locale": "en"
-							}
-							</script>
-						</div>
-					</div>
-				</section>
-
+			
 				<h2 class="projects-title" id="applications">Investment Decision Tools</h2>
 				<p class="projects-intro"> Explore applications designed to analyze portfolios, evaluate investment decisions and support portfolio monitoring.
 				</p>
@@ -167,9 +156,10 @@
 					>
 
 					<div class="about-text">
-						<h2>About the project</h2>
-						<p><strong>Built at the intersection of wealth management and technology.</strong></p>
-						<p>This personal project explores how market data, portfolio analytics and modern technologies can support the investment decision-making process.</p>
+						<h2>The project</h2>
+						<p><strong>Built at the intersection of wealth management, technology and AI.</strong></p>
+						<p>Drawing on my experience in wealth management and longstanding interest in technology, this personal project explores how financial applications can turn portfolio data and market intelligence into actionable investment insights.</p>
+						<p>The platform is designed and developed through an AI-assisted workflow, combining my financial expertise, programming and the use of generative AI.</p>
                 	</div>
                 </section>
 

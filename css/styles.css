@@ -304,11 +304,7 @@ nav a:hover {
 }
 
 .market-pulse {
-    width: 90%;
-    max-width: 1200px;
-    box-sizing: border-box;
-
-    margin: 20px auto 0;
+    margin: 25px 0;
     padding: 14px 18px;
 
     background-color: #12304A;
@@ -316,7 +312,7 @@ nav a:hover {
     border-bottom: 3px solid #B89B5E;
 }
 
-.market-pulse h2 {
+.market-pulse h3 {
     margin: 0 0 8px;
     color: white;
     font-size: 16px;
@@ -325,14 +321,14 @@ nav a:hover {
     letter-spacing: 1.5px;
 }
 
-.market-insights {
+.global-markets {
     width: 90%;
     max-width: 1200px;
     box-sizing: border-box;
     margin: 25px auto 20px;
 }
 
-.market-insights h2 {
+.global-markets h2 {
     color: #12304A;
     text-align: center;
     font-size: 36px;
@@ -340,7 +336,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-.market-insights h2::after {
+.global-markets h2::after {
     content: "";
     display: block;
     width: 60px;
@@ -349,7 +345,7 @@ nav a:hover {
     background-color: #B89B5E;
 }
 
-.insights-intro {
+.global-markets-intro {
     max-width: 650px;
     margin: 0 auto 25px;
     padding: 0 20px;
@@ -358,20 +354,33 @@ nav a:hover {
     line-height: 1.5;
 }
 
-.insights-widget {
-    height: 450px;
-    overflow: hidden;
+.world-market-performance {
+    margin-top: 25px;
+    padding: 1.5rem;
+
     background-color: white;
     border-radius: 16px;
     border-top: 4px solid #B89B5E;
     box-shadow: 0 6px 18px rgba(18, 48, 74, 0.12);
 }
 
-.insights-widget .tradingview-widget-container {
-    width: 100%;
-    height: 100%;
+.world-market-performance h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #12304A;
+    font-size: 22px;
 }
 
+.world-market-widget {
+    width: 100%;
+    min-height: 520px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.world-market-widget > * {
+    width: 100%;
+}
 
 /*------- FOOTER */
 
@@ -423,6 +432,12 @@ nav a:hover {
         display: block;
         padding: 12px;
     }
+    .world-market-performance {
+        padding: 1rem;
+    }
+    .world-market-widget {
+        min-height: 480px;
+    }
     .about {
         flex-direction: column;
         text-align: center;
@@ -438,11 +453,8 @@ nav a:hover {
     .contact {
         padding: 2rem 1.5rem;
     }
-    .market-insights h2 {
+    .global-markets h2 {
         font-size: 30px;
-    }
-    .insights-widget {
-        height: 500px;
     }
     .footer {
         flex-direction: column;
